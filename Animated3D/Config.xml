@@ -1,0 +1,50 @@
+<CellularAutomata>
+    <Window>
+        <Width>800</Width>
+        <Height>600</Height>
+        <Caption>Cellular Automata Test</Caption>
+        <FPS>40</FPS>
+    </Window>
+    
+    <Grid>
+        <Dimensions>600 100 300</Dimensions>
+        <Resolution>0.6 0.6 0.6</Resolution>
+        
+        <BoundMode>
+            <Top>ignore</Top>
+            <Bottom>ignore</Bottom>
+            <Left>wrap</Left>
+            <Right>wrap</Right>
+            <Front>wrap</Front>
+            <Back>wrap</Back>
+        </BoundMode>
+        
+        <DefaultValue>earth</DefaultValue>
+        <Region>
+            <Value>air</Value>
+            <Position>0 90 0</Position>
+            <Dimensions>600 10 300</Dimensions>
+        </Region>
+        <Region>
+            <Value>coal</Value>
+            <Position>180 0 90</Position>
+            <Dimensions>240 30 120</Dimensions>
+        </Region>
+        <Region>
+            <Value>drill</Value>
+            <Position>180 0 90</Position>
+            <Dimensions>1 30 120</Dimensions>
+        </Region>
+    </Grid>
+    
+    <SelectionSet>
+        <Mean>0.0 0.0</Mean>
+        <Variance>3.0 3.0</Variance>
+        <Radius>3</Radius>
+    </SelectionSet>
+    
+    <Iterations>500</Iterations>
+    <KillBubble>0.01</KillBubble>
+    <ColourRange>60 90</ColourRange>
+    <HeightmapSmoothing>0.5</HeightmapSmoothing>
+</CellularAutomata>

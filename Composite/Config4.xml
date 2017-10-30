@@ -1,0 +1,25 @@
+<CellularAutomata>
+    <CellMap>CellMap4.png</CellMap>
+    
+    <Coal>0x03417A</Coal>
+    <Drill>0x000000</Drill>
+    <Air>0xFFFFFF</Air>
+    
+    <CellType>
+        <Colour>0x4697DF</Colour>
+        <ProbabiltyDistribution>
+            <Mean>0.0</Mean>
+            <Variance>3.0</Variance>
+        </ProbabiltyDistribution>
+        <KillBubble>0.002</KillBubble>
+    </CellType>
+    
+    <CellType>
+        <Colour>0x0A5394</Colour>
+        <ProbabiltyDistribution>
+            <Mean>0.0</Mean>
+            <Variance>0.0001</Variance>
+        </ProbabiltyDistribution>
+        <KillBubble>0.0</KillBubble>
+    </CellType>
+</CellularAutomata>
